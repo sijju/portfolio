@@ -9,7 +9,7 @@ const Footer = () => {
         <Heading as={motion.h2} variants={fadeInBottomvariant} initial='hidden' whileInView='visible' size='h2' align='center'>Connect <BlueText>with me</BlueText> </Heading> 
         <PaddingContainer top='3rem'>
             <FlexContainer justify='center'>
-                <FormContainer as={motion.form} variants={fadeInBottomvariant} initial='hidden' whileInView='visible'>
+                <FormContainer as={motion.form}  variants={fadeInBottomvariant} initial='hidden' whileInView='visible'>
                     <PaddingContainer bottom='2rem'>
                         <FormLabel>
                             Name
